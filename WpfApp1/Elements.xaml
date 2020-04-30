@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="WpfApp1.Elements"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="Image">
+            <Setter Property="Width" Value="40"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+    </UserControl.Resources>
+    <Border BorderBrush="Black" BorderThickness="5">
+        <Grid>
+            <Expander Width="300">
+                <Expander.Header>
+                    <StackPanel>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="15" />
+                                <ColumnDefinition Width="auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <TextBlock HorizontalAlignment="Center">Centrifuges</TextBlock>
+                            </Grid>
+                        </Grid>
+                    </StackPanel>
+
+                </Expander.Header>
+                <WrapPanel>
+                    <Image Source="{StaticResource Centrifuges1}"/>
+                    <Image Source="{StaticResource Centrifuges2}"/>
+                    <Image Source="{StaticResource Centrifuges3}"/>
+                    <Image Source="{StaticResource Centrifuges4}"/>
+                    <Image Source="{StaticResource Centrifuges5}"/>
+                    <Image Source="{StaticResource Centrifuges6}"/>
+                    <Image Source="{StaticResource Centrifuges7}"/>
+                    <Image Source="{StaticResource Centrifuges8}"/>
+                    <Image Source="{StaticResource Centrifuges9}"/>
+                    <Image Source="{StaticResource Centrifuges10}"/>
+                    <Image Source="{StaticResource Centrifuges11}"/>
+                    <Image Source="{StaticResource Centrifuges12}"/>
+                    <Image Source="{StaticResource Centrifuges13}"/>
+                    <Image Source="{StaticResource Centrifuges14}"/>
+                    <Image Source="{StaticResource Centrifuges15}"/>
+                    <Image Source="{StaticResource Centrifuges16}"/>
+                    <Image Source="{StaticResource Centrifuges17}"/>
+                    <Image Source="{StaticResource Centrifuges18}"/>
+                    <Image Source="{StaticResource Centrifuges19}"/>
+                    <Image Source="{StaticResource Centrifuges20}"/>
+                    <Image Source="{StaticResource Centrifuges21}"/>
+                </WrapPanel>
+            </Expander>
+        </Grid>
+    </Border>
+</UserControl>
