@@ -14,7 +14,7 @@
     </UserControl.Resources>
     <Border BorderBrush="Black" BorderThickness="5">
         <Grid>
-            <Expander Width="300">
+            <Expander Width="200">
                 <Expander.Header>
                     <StackPanel>
                         <Grid>
